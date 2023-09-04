@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="#F8F3AC" >
+
+    <TextView
+        android:textStyle="bold"
+        android:text="Change Profile"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="138dp"
+        android:layout_height="138dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="136dp"
+        android:src="@drawable/uploadimage"
+         />
+
+    <EditText
+        android:id="@+id/profileRealname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textColor="#000" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Birth Date"
+        android:textColor="#000"
+        android:ems="10"
+        android:maxLength="6"
+        android:layout_below="@+id/profileRealname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/profileBirth"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Team"
+        android:textColor="#000"
+        android:ems="10"
+        android:layout_below="@+id/profileBirth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/profileTeam"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/profileConfirm"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileTeam"
+        android:background="@drawable/btn_bg_ex"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="535dp"
+        android:text="Confirm" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/data"
+        android:icon="@drawable/input"
+        android:enabled="true"
+        android:title="input"/>
+
+    <item
+        android:id="@+id/nodegraph"
+        android:icon="@drawable/nodegraph"
+        android:enabled="true"
+        android:title="nodegraph"/>
+
+    <item
+        android:id="@+id/bargraph"
+        android:icon="@drawable/bargraph"
+        android:enabled="true"
+        android:title="bargraph"/>
+
+
+
+</menu>
